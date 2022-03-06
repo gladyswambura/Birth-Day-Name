@@ -1,5 +1,4 @@
-$("#lightswitch i").click(function () {
-    var isDark = $("body").is(".dark");
-    $("body").toggleClass("dark", !isDark);
-    $(this).toggleClass("fa-moon", isDark).toggleClass("fa-sun", !isDark);
-});
+// Find out my akan name button
+function showText() {
+    alert("Great start! now click OK and -scroll down to fill the form")
+}
