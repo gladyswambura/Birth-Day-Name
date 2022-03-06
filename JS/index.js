@@ -35,3 +35,23 @@ function button1() {
       var calculate = (Math.floor(CC / 4) - 2 * CC - 1 + 5 * Math.floor(YY / 4) + Math.floor((26 * (MM + 1)) / 10) + DD) % 7
       myGender(calculate, date)
       }
+
+      // Gender
+      function myGender(day, date) {
+          let gender = document.getElementById('gender').value;
+          let akanName
+          let wday
+          if (date == "") {
+              alert("please chose a date")
+          } else if (gender == "null") {
+              alert("please chose a gender")
+          } else if (gender == 'male') {
+              akanName = mAkanName[day]
+              wday = daysOfTheWeek[day]
+              alert("You were born on a: " + wday + " and your AKAN name is: " + akanName)
+          } else if (gender == 'female') {
+              akanName = fAkanName[day]
+              wday = daysOfTheWeek[day]
+              alert("You were born on a: " + wday + " and your AKAN name is: " + akanName)
+          }
+      }
