@@ -30,3 +30,8 @@ function button1() {
      YY = parseInt(YY);
      MM = parseInt(MM);
      DD = parseInt(DD);
+
+      // math.floor(trancates) formula
+      var calculate = (Math.floor(CC / 4) - 2 * CC - 1 + 5 * Math.floor(YY / 4) + Math.floor((26 * (MM + 1)) / 10) + DD) % 7
+      myGender(calculate, date)
+      }
