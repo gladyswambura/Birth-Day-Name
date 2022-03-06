@@ -25,3 +25,8 @@ function button1() {
      var YY = date.substring(2, 4);
      var MM = date.substring(5, 7);
      var DD = date.substring(8, 10);
+
+     CC = parseInt(CC);
+     YY = parseInt(YY);
+     MM = parseInt(MM);
+     DD = parseInt(DD);
