@@ -2,6 +2,8 @@
 ##### By Gladys Wambura 
 ### Name Predictor is an app which predicts an AKAN Name, depending on your birth-day and your gender.
 
+![main](![download](https://user-images.githubusercontent.com/97955649/156918647-131f94f0-9620-46f7-a97c-8fb87f442a2c.jpeg)
+
 ## Table of Contents
 
 + [Description](#description)
@@ -12,11 +14,9 @@
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 
-
 ## Description
 <p>This is a web application that takes a user's birth-day and it calculates the day of the week you were born and then depending on your gender, it gives you a unique Akan Name. This app is Fun!.</p>
 
-![main](![download](https://user-images.githubusercontent.com/97955649/156918647-131f94f0-9620-46f7-a97c-8fb87f442a2c.jpeg)
 
 ## Installation
 <br>To install git in your pc,run (on yout terminal):<br>
