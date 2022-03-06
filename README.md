@@ -1,14 +1,14 @@
 # Birth-Day-Name
-##### By Gladys Wambura 
+
 ### Name Predictor is an app which predicts an AKAN Name, depending on your birth-day and your gender.
 
-![main](![download](https://user-images.githubusercontent.com/97955649/156918647-131f94f0-9620-46f7-a97c-8fb87f442a2c.jpeg)
+(![download](https://user-images.githubusercontent.com/97955649/156918647-131f94f0-9620-46f7-a97c-8fb87f442a2c.jpeg)
 
 ## Table of Contents
 
 + [Description](#description)
 + [Installation Requirement](#Installation)
-+ [github link](#Name-predictor github link)
++ [Sitelink](#Name-predictor)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
 + [Licence](#licence)
@@ -25,7 +25,7 @@
 <p>If you want to clone this repository to your local machine, use the following command:</p>
 <p><code> git clone https://github.com/gladyswambura/Birth-Day-Name</code></p>
 
-## Name-predictor github link
+## Site link
 https://github.com/gladyswambura/Birth-Day-Name
 
 ### Requirements
@@ -64,6 +64,6 @@ Slack Profile - [Gladys Wambura](https://stackoverflow.com/users/18241026/gladys
 
 Linked - [Gladys Wambura](https://www.linkedin.com/in/gladys-wahito-3480a01ab/)
 
-[Go Back to the top](#Name-predictor github link)
 
+##### By Gladys Wambura 
 
