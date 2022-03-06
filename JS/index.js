@@ -48,7 +48,7 @@ function button1() {
           } else if (gender == 'male') {
               akanName = mAkanName[day]
               wday = daysOfTheWeek[day]
-              alert("You were born on a: " + wday + " and your AKAN name is: " + akanName)
+              alert("WOW! You were born on a " + wday + " and your AKAN name is: " + akanName)
           } else if (gender == 'female') {
               akanName = fAkanName[day]
               wday = daysOfTheWeek[day]
