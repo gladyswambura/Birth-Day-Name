@@ -96,3 +96,8 @@ body{
     margin-left: 170px;
     margin-top: 50px;
 }
+.card2 {
+    /* align-items: center; */
+    margin-top: 80px;
+    font-weight: 100;
+}
