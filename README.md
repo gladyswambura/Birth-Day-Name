@@ -2,7 +2,9 @@
 
 ### Name Predictor is an app which predicts an AKAN Name, depending on your birth-day and your gender.
 
-![download](https://user-images.githubusercontent.com/97955649/156918647-131f94f0-9620-46f7-a97c-8fb87f442a2c.jpeg)
+![download](![c7af2c74-e63b-4b7d-a808-bc9e3f7db23d](https://user-images.githubusercontent.com/97955649/156924632-675b63df-3c53-401d-95d8-b27e05c9bf4e.jpeg))
+![download](![ed639f20-819e-4494-b210-75029fa420a0](https://user-images.githubusercontent.com/97955649/156924656-d4d6b590-a779-4dab-8460-39ad41bd71db.jpeg)
+)
 
 ## Table of Contents
 
