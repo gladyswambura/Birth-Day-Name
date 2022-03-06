@@ -30,15 +30,20 @@ body{
     font-size: 20px;
 }
 .card1{
-    width: 300px;
+    width: 350px;
     height: 150px;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
     background-image: url(../Images/background4.jpeg.crdownload);
     background-size: cover;
-    color: white;
+    color: grey;
     font-weight: 100;
     background-repeat: no-repeat;
+    align-items: center;
+}
+.card1 p{
+    color: black;
+    font-weight: 400;
 }
 .jumbotron {
     margin-top: 50px;
@@ -61,10 +66,10 @@ body{
 #Akan-Name {
     border: 2px solid #23A6F0;
     border-radius: 5%;
-    width: 550px;
+    width: 700px;
     height: 400px;
-    padding: 50px;
-    box-shadow: 5px 5px 5px 5px rgb(192, 23, 169);
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgb(192, 23, 169);
 }
 
 #Akan-Name h4 {
@@ -76,9 +81,11 @@ body{
 #Akan-Name .gender {
     margin-top: 50px;
     font-size: 26px;
+    text-align: center;
 }
 
 #Akan-Name .DOB {
+    text-align: center;
     margin-top: 50px;
     font-size: 26px;
     font-weight: 200px;
@@ -92,12 +99,24 @@ body{
     width: 150px;
     font-size: 26px;
     font-weight: 200px;
+    display: block;
+    margin: 0 auto;
     align-items: center;
-    margin-left: 170px;
+    margin-left: 250px;
     margin-top: 50px;
 }
 .card2 {
-    /* align-items: center; */
+    font-size: 15px;
+    align-items: center;
     margin-top: 80px;
     font-weight: 100;
+}
+.card2 .media-icons a{
+    font-size: 20px;
+     align-items: center;
+     padding: 80px;
+     margin: auto;
+}
+.card2 p{
+    margin-left: 150px;
 }
