@@ -11,47 +11,39 @@ const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "
 function button1() {
     var date = document.getElementById('DOB').value;
 
-    // (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) mod 7
+    var CC = date.substring(0, 2);
+    var YY = date.substring(0, 4);
+    console.log(YY)
+    var MM = date.substring(5, 7);
+    var DD = date.substring(8, 10);
 
-    // CC - is the century digits.For example 1989 has CC = 19
-    // YY - is the Year digits(1989 has YY = 89)
-    // MM - is the Month
-    // DD - is the Day of the month
-    // mod - is the modulus
-    // function ( % )
+    CC = parseInt(CC);
+    YY = parseInt(YY);
+    MM = parseInt(MM);
+    DD = parseInt(DD);
 
-     // example user inputs 2022-12-31
-     var CC = date.substring(0, 2);
-     var YY = date.substring(2, 4);
-     var MM = date.substring(5, 7);
-     var DD = date.substring(8, 10);
+    // math.floor(trancates) formula
+    var calculate = (DD + parseInt(((MM + 1) * 26) / 10) + YY + parseInt(YY / 4) + 6 * parseInt(YY / 100) + parseInt(YY / 400) - 1) % 7;
 
-     CC = parseInt(CC);
-     YY = parseInt(YY);
-     MM = parseInt(MM);
-     DD = parseInt(DD);
+    myGender(calculate, date)
+}
 
-      // math.floor(trancates) formula
-      var calculate = (Math.floor(CC / 4) - 2 * CC - 1 + 5 * Math.floor(YY / 4) + Math.floor((26 * (MM + 1)) / 10) + DD) % 7
-      myGender(calculate, date)
-      }
-
-      // Gender
-      function myGender(day, date) {
-          let gender = document.getElementById('gender').value;
-          let akanName
-          let wday
-          if (date == "") {
-              alert("please chose a date")
-          } else if (gender == "null") {
-              alert("please chose a gender")
-          } else if (gender == 'male') {
-              akanName = mAkanName[day]
-              wday = daysOfTheWeek[day]
-              alert("WOW! You were born on a " + wday + " and your AKAN name is: " + akanName)
-          } else if (gender == 'female') {
-              akanName = fAkanName[day]
-              wday = daysOfTheWeek[day]
-              alert("WOW!You were born on a " + wday +" and your AKAN name is: " + akanName)
-          }
-      }
+// Gender
+function myGender(day, date) {
+    let gender = document.getElementById('gender').value;
+    let akanName
+    let wday
+    if (date == "") {
+        alert("please chose a date")
+    } else if (gender == "null") {
+        alert("please chose a gender")
+    } else if (gender == 'male') {
+        akanName = mAkanName[day]
+        wday = daysOfTheWeek[day]
+        alert("WOW! You were born on a " + wday + " and your AKAN name is: " + akanName)
+    } else if (gender == 'female') {
+        akanName = fAkanName[day]
+        wday = daysOfTheWeek[day]
+        alert("WOW!You were born on a " + wday + " and your AKAN name is: " + akanName)
+    }
+}
